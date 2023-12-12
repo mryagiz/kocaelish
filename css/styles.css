@@ -1,0 +1,177 @@
+.container {
+	text-align: center;	
+  
+
+}
+
+.logo {
+	margin-top: 3%;
+}
+
+.cardHeader {
+	margin-bottom: 2em;
+	text-align: center;
+	
+}
+
+.toast-container {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 9999;
+	opacity: 1.4;
+	text-align: right;
+}
+
+/* .popup {
+	width: 100%;
+	height: 100%;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+}
+
+.popup-content {
+	background-color: black;
+	padding: 20px;
+	font-size: 24;
+}
+ */
+.toast-message {
+	display: inline-block;
+	text-align: center;
+	background-color: rgba(76, 175, 80, 0.8);
+}
+
+.toast-message .toast-header {
+	background-color: rgba(76, 175, 80, 0.8);
+	color: #fff;
+	text-align: center;
+	padding: 8px;
+}
+
+.toast-message .toast-body {
+	background-color: #fff;
+	padding: 8px;
+	border-radius: 10px;
+}
+
+@import url('https://rsms.me/inter/inter.css');
+
+
+:root {
+	--color-light: white;
+	--color-dark: #212121;
+	--color-signal: #fab700;
+
+	--color-background: var(--color-light);
+	--color-text: var(--color-dark);
+	--color-accent: var(--color-signal);
+
+	--size-bezel: .5rem;
+	--size-radius: 4px;
+
+	line-height: 1.4;
+
+	font-family: 'Inter', sans-serif;
+	font-size: calc(.6rem + .4vw);
+	color: var(--color-text);
+	background: var(--color-background);
+	font-weight: 300;
+	padding: 0 calc(var(--size-bezel) * 3);
+}
+
+h1,
+h2,
+h3 {
+	font-weight: 600;
+}
+
+
+a:link {
+  color: #700000;
+	text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: #b30000;
+	text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+  color: #ff9500;
+}
+
+/* selected link */
+a:active {
+  color: black;
+}
+
+mark {
+	background: var(--color-accent);
+	color: var(--color-text);
+	font-weight: bold;
+	padding: 0 0.2em;
+}
+
+.card {
+	background: var(--color-background);
+	padding: calc(4 * var(--size-bezel));
+	margin-top: calc(4 * var(--size-bezel));
+	border-radius: var(--size-radius);
+	border: 3px solid var(--color-shadow, currentColor);
+	box-shadow: .5rem .5rem 0 var(--color-shadow, currentColor);
+	
+}
+
+
+.l-design-widht {
+	max-width: 40rem;
+	padding: 1rem;
+}
+
+.input {
+	position: relative;
+}
+
+.btn-group {
+	margin-bottom: 2em;
+}
+
+.icon {
+	display: inline-block;
+	width: 1em;
+	height: 1em;
+	margin-right: .5em;
+}
+
+.siteler {
+	margin-top: .9em;
+}
+
+.copyright {
+	margin-top: 1em;
+}
+
+.qr-code {
+	max-width: 250px;
+	margin: 20px;
+}
+
+.img-thumbnail {
+	padding: .10rem;
+	background-color: var(--bs-body-bg);
+	border: var(--bs-border-width) solid var(--bs-border-color);
+	border-radius: var(--bs-border-radius);
+	max-width: 100%;
+	height: auto;
+}
+
+#bitik1,
+#bitik2 {
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
