@@ -24,7 +24,7 @@ $("#modal-welcome").iziModal({
 
 // burası izimodal resim
 
-$("#modal-welcome").iziModal("setContent", "<img src="img/atam.jpg" width="500" height="500" alt="aaCumhuriyet">"); 
+$("#modal-welcome").iziModal("setContent", "<img src="img/atam.jpg" width="500" height="500" alt="Cumhuriyet">"); 
 
 
 
