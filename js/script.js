@@ -2,12 +2,12 @@
 var scriptGlobal = ``;
 
 $("#modal-welcome").iziModal({
-	title: "<center></center>",
+	title: "<center><b>sağlıklı ve mutlu yıllar.</b><br>HOŞ GELDİN 2025!</center>",
 	subtitle: "",
-	color:'',
-	icon: 'fas fa-heart',
+	color:'#FFFFFF',
+	icon: 'fas fa-snowflake',
 	iconColor:'   #FFFFFF',
-	headerColor: '#ad1919',
+	headerColor: '#af1f1f',
 	width: 500,
 	timeout: 5500,
 	timeoutProgressbar: true,
@@ -24,7 +24,7 @@ $("#modal-welcome").iziModal({
 
 // burası izimodal resim
 
-$("#modal-welcome").iziModal("setContent", "<img src="img/atam.jpg" width="500" height="500" alt="Cumhuriyet">"); 
+$("#modal-welcome").iziModal("setContent", "<img src='../img/2024.jpg' width='500' height='500' alt='2024'>"); 
 
 
 
