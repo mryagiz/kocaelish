@@ -2,7 +2,7 @@
 var scriptGlobal = ``;
 
 $("#modal-welcome").iziModal({
-	title: "<center><b>sağlıklı ve mutlu yıllar.</b><br>HOŞ GELDİN 2025!</center>",
+	title: "<center><b>Sağlıklı ve Mutlu Yıllar.</b><br>HOŞ GELDİN 2025!</center>",
 	subtitle: "",
 	color:'#FFFFFF',
 	icon: 'fas fa-snowflake',
