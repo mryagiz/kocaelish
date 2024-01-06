@@ -22,9 +22,9 @@ $("#modal-welcome").iziModal({
 });
 
 
-// burası izimodal resim 
+// burası izimodal resim
 
-$("#modal-welcome").iziModal("setContent", "<img src='..img/2024.jpg' width='500' height='500' alt='2024'>"); 
+$("#modal-welcome").iziModal("setContent", "<img src='https://mryagiz.github.io/kocaelish/img/2024.jpg' width='500' height='500' alt='2024'>"); 
 
 
 
