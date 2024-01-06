@@ -24,7 +24,7 @@ $("#modal-welcome").iziModal({
 
 // burası izimodal resim
 
-$("#modal-welcome").iziModal("setContent", "<img src='../img/2024.jpg' width='500' height='500' alt='2024'>"); 
+$("#modal-welcome").iziModal("setContent", "<img src='/img/2024.jpg' width='500' height='500' alt='2024'>"); 
 
 
 
