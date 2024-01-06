@@ -2,7 +2,7 @@
 var scriptGlobal = ``;
 
 $("#modal-welcome").iziModal({
-	title: "<center><b>sağlıklı ve mutlu yıllar.</b><br>HOŞ GELDİN 2025!</center>",
+	title: "<center><b>Sağlıklı ve Mutlu Yıllar.</b><br>HOŞ GELDİN 2025!</center>",
 	subtitle: "",
 	color:'#FFFFFF',
 	icon: 'fas fa-snowflake',
@@ -24,7 +24,7 @@ $("#modal-welcome").iziModal({
 
 // burası izimodal resim
 
-$("#modal-welcome").iziModal("setContent", "<img src='../img/2024.jpg' width='500' height='500' alt='2024'>"); 
+$("#modal-welcome").iziModal("setContent", "<img src='/img/2024.jpg' width='500' height='500' alt='2024'>"); 
 
 
 
